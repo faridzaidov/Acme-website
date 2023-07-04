@@ -1,0 +1,39 @@
+.whyacme-section {
+    color: var(--text-dark-color);
+}
+
+.whyacme-section-head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.whyacme-section-head .section-subhead {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.whyacme-section-head .section-mainhead {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.whyacme-section-reasons {
+    display: flex;
+}
+
+.reason-card {
+    padding: 20px;
+}
+
+.reason-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .whyacme-section-reasons {
+        display: block;
+        text-align: center;
+    }
+}

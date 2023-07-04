@@ -1,0 +1,9 @@
+.owners-section {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .owners-section {
+        display: block;
+    }
+}

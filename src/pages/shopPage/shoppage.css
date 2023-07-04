@@ -1,0 +1,6 @@
+.shoppage-head {
+    background-color: var(--bg-dark-color);
+    color: var(--text-light-color);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}

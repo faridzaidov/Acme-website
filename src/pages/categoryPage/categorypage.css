@@ -1,0 +1,4 @@
+.chosen-category {
+    background-color: var(--bg-dark-color) !important;
+    color: var(--text-light-color) !important;
+}

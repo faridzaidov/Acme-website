@@ -1,0 +1,92 @@
+nav {
+    background-color: var(--red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    color: var(--text-light-color);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-links a {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+    transition: all .3s;
+}
+
+.nav-links a:hover {
+    background-color: var(--bg-dark-color);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark-color);
+    padding: .4rem .8rem;
+    border-radius: 10px;
+}
+
+.item-count {
+    position: absolute;
+    left: 36px;
+    top: -5px;
+    font-size: 12px;
+    background-color: #fff;
+    color: var(--text-dark-color);
+    padding: 2px 6px;
+    border-radius: 100%;
+    font-weight: 700;
+}
+
+.cart-icon img {
+    width: 1.3rem;
+}
+
+.toggle-menu {
+    display: none;
+    margin-left: 20px;
+    z-index: 10;
+}
+
+.menu-close-btn {
+    background-color: var(--bg-dark-color);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-links {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+}
+
+.nav-links-collapsed {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: var(--red);
+    left: 0%;
+    top: 0%;
+    padding: 40%;
+}
+
+.nav-links-collapsed a {
+    padding: 20px;
+}

@@ -1,0 +1,36 @@
+.featured-item-container {
+    position: relative;
+    background: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg");
+    background-color: rgb(146, 146, 146);
+    background-blend-mode: multiply;
+    color: var(--text-light-color);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 3rem 0;
+}
+
+.featured-item-label {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: var(--text-dark-color);
+    background-color: var(--text-light-color);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.featured-item-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--text-light-color);
+}
+
+.featured-item-price {
+    color: var(--text-light-color);
+}

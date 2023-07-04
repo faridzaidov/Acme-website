@@ -1,0 +1,26 @@
+.cart-page-head {
+    background-color: var(--bg-dark-color);
+    color: var(--text-light-color);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.cart-page-body {
+    min-height: 50vh;
+}
+
+.no-items-in-cart {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cart-total {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid rgb(224, 224, 224);
+    margin-top: 1rem;
+}

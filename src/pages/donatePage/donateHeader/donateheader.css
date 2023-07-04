@@ -1,0 +1,51 @@
+.donate-header {
+    background: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e85758a28ae07433140f0cb_jed-villejo-bEcC0nyIp2g-unsplash%20(1)%20(1).jpg");
+    background-color: rgb(155, 155, 155);
+    background-blend-mode: multiply;
+    color: var(--text-light-color);
+    text-align: center;
+    padding: 15rem 0 13rem;
+    background-position: end;
+    background-size: cover;
+}
+
+.donate-header h2 {
+    font-size: 38px;
+}
+
+.donate-header h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.donate-header p {
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .donate-header p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .donate-header {
+        padding: 14rem 0 8rem;
+    }
+
+    .donate-header h2 {
+        font-size: 26px;
+    }
+
+    .donate-header h4 {
+        font-size: 20px;
+    }
+
+    .donate-header p {
+        width: 90%;
+        font-size: 14px;
+    }
+}

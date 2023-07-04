@@ -1,0 +1,35 @@
+a.nav-link {
+    color: var(--text-light-color);
+    transition: all .3s;
+    padding: .2rem .5rem !important;
+    margin: 0 1rem;
+}
+
+a.nav-link:hover {
+    background-color: var(--bg-dark-color);
+    border-radius: 5px;
+}
+
+nav {
+    font-family: var(--font-family);
+    padding: 1rem 0 !important;
+}
+
+nav .collapsing,
+nav .show {
+    text-align: center;
+    font-size: 24px;
+}
+
+button.navbar-toggler {
+    color: var(--text-light-color) !important;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.cart-icon {
+    margin-left: .5rem;
+}
