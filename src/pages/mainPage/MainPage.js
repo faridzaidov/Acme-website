@@ -6,6 +6,9 @@ import ShopProducts from './shopProducts/ShopProducts'
 import ShopLocal from './shopLocal/ShopLocal'
 import { Helmet } from 'react-helmet'
 
+
+
+
 export default function MainPage() {
     return (
         <div>
